@@ -6,13 +6,16 @@ Breast cancer is the most commonly diagnosed cancer among American women. As of 
 
 Screening mammography addresses this issue by allowing for early diagnosis and thus treatment of breast cancer. Despite its benefits, screening mammograms are associated with a high risk of false positives and false negatives. Researchers have been turned to deep learning as a way to improve the accuracy of screening mammography. Indeed, recent studients have shown that a deep learning based CAD system performed as well as radiologists in standalone mode and improved their performance in support mode. 
 
-To test this, this project has utilized Convolutional Neural Network to create a program that detects breast cancer.
+To test this, this project has utilized Convolutional Neural Network and the Keras/Tensorflow library to create a program that detects breast cancer.
 
 ## Input Data
 Training data was obtained from the Breast Cancer Wisconsin dataset at [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)). This dataset includes a label, an ID, and 30 columns of feature space. 
 
 ## Approach
-1. This project uses 
+1. Install Tensorflow and import necessary libraries: 
+  - For deep learning: Keras.layers, Keras.optimizers, and sklearn
+  - For data analysis and visualization: Pnadas, Numpy, Seaborn, Matplotlib
+2. Load cancer datasets 
 
 ## References
 1. “U.S. Breast Cancer Statistics | Breastcancer.org.” Breastcancer.org, 4 Feb. 2021, www.breastcancer.org/symptoms/understand_bc/statistics.
